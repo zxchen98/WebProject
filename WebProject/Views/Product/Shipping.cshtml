@@ -1,0 +1,10 @@
+@model WebProject.Models.Shipper
+
+<h2>Shipper Details</h2>
+
+<div>
+    <p>ID: @Model.id</p>
+    <p>Name: @Model.name</p>
+    <p>City: @Model.city</p>
+</div>
+<a href="@Url.Action("Index", "Home")" style="padding: 10px 20px; background-color: #0dcaf0; color: white; border-radius: 5px;">&lt;&lt;Back</a>

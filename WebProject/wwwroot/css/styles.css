@@ -1,0 +1,26 @@
+
+.navbar-custom {
+    background-color: rgb(190, 190, 190);
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: rgb(97, 96, 96);
+    font-size: 25px;
+    margin-right: 25px;
+}
+.navbar-custom .nav-link:hover {
+    color: #ccc;
+    background-color: rgb(36, 35, 35);
+}
+.footer-custom {
+    background-color: rgb(127, 194, 27);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+}
+.bg-lightgreen {
+    background-color: #D4EDDA;
+}

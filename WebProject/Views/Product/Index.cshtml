@@ -1,0 +1,35 @@
+@model IEnumerable<WebProject.Models.Product>
+
+<h2 align="center">Products</h2>
+
+<table border="1" style="margin-left: auto; margin-right: auto">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Description</th>
+        <th>Shipped By</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var product in Model)
+    {
+        <tr>
+            <td>@product.id</td>
+            <td>@product.name</td>
+            <td>@product.price</td>
+            <td>@product.description</td>
+            <td>
+                <a href="@Url.Action("Shipping", "Product", new { shipperId = product.ShipperId })">View Shipping</a>
+            </td>
+            <td>
+                <a href="@Url.Action("Purchase", "Product", new { id = product.id })" class="btn btn-primary">Purchase</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Index", "Home")" style="padding: 10px 20px; background-color: #0dcaf0; color: white; border-radius: 5px;">&lt;&lt;Back</a>
+

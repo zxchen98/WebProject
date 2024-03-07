@@ -1,0 +1,51 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebProject
+build_property.RootNamespace = WebProject
+build_property.ProjectDir = /Users/zhaoxiangchen/Desktop/WebProject/WebProject/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/zhaoxiangchen/Desktop/WebProject/WebProject
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/zhaoxiangchen/Desktop/WebProject/WebProject/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zhaoxiangchen/Desktop/WebProject/WebProject/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zhaoxiangchen/Desktop/WebProject/WebProject/Views/Product/Purchase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9QdXJjaGFzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zhaoxiangchen/Desktop/WebProject/WebProject/Views/Product/Shipping.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9TaGlwcGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zhaoxiangchen/Desktop/WebProject/WebProject/Views/Shipper/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hpcHBlci9BYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zhaoxiangchen/Desktop/WebProject/WebProject/Views/Shipper/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hpcHBlci9Db250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zhaoxiangchen/Desktop/WebProject/WebProject/Views/Shipper/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hpcHBlci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zhaoxiangchen/Desktop/WebProject/WebProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,21 @@
+@model WebProject.Models.Product
+
+<h2 align="center">Review Order</h2>
+
+<div align="center">
+<div>
+    <p> <b>Product Name:</b> @Model.name</p>
+    <p> <b>Description:</b> @Model.description</p>
+    <p>Price: <strong>@Model.price</strong></p>
+</div>
+
+<form>
+    <div class="form-group">
+        <label for="creditCardNumber">Credit Card Number:</label>
+        <input type="text" class="form-control" placeholder="credit card number">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit Order</button>
+</form>
+</div>
+<a href="@Url.Action("Index", "Home")" style="padding: 10px 20px; background-color: #0dcaf0; color: white; border-radius: 5px;">&lt;&lt;Back</a>
