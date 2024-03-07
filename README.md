@@ -1,2 +1,1 @@
-# WebProject
- 
+This assignment contains three controllers: Home, Product, and Shipper. Product and Shipper each have three views and will display the corresponding HTML page. Home only contains one Index page that have a navigation to either Products and Shippers main index page, where it holds all the information about their items.
